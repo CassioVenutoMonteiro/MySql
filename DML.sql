@@ -370,12 +370,3 @@ call insert_tablum ("bb",22,"2022-13-10"); -- executa o que foi
 
 drop procedure insert_tablum; -- exclui a procedure
 -- drop procedure nome_procedure;
-
-
-			-- FUNCTION
-
-create function  contador_de_registros(id int)
-returns int
-sql security invoker
-comment "conta a quantidade de registros de uma tabela"
-begin
